@@ -7,7 +7,9 @@ public class Manager extends Employee {
 	
 	//오류가 난걸 고쳐보기. 아래의 코드를 작성한다. 
 	//매개변수가 있는 생성자
-	public Manager(String empName, String empPart, String rank) {
+	public Manager(
+			String empName, String empPart,
+			String rank) {
 		//상위클래스의 생성자 호출		
 		super(empName, empPart);
 		this.rank = rank;		
